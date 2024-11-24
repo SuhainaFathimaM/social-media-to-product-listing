@@ -90,3 +90,7 @@ Social media significantly influences purchase decisions, yet identifying and ca
    ```bash
    git clone https://github.com/your-repo/social2amazon.git
    cd social2amazon
+
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
