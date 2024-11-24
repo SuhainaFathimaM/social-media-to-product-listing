@@ -94,3 +94,20 @@ Social media significantly influences purchase decisions, yet identifying and ca
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
+
+3. Start the application:
+   ```bash
+   gunicorn -w 4 -k uvicorn.workers.UvicornWorker main:app
+
+4. Open http://127.0.0.1:8000 in your browser.
+
+---
+
+### Technologies Used
+
+- **Backend**: FastAPI, TensorFlow, SpaCy, MoviePy
+- **Frontend**: HTML, CSS, JavaScript
+- **Deployment**: Render
+- **Database**: SQLite (for prototype)
+
+---
