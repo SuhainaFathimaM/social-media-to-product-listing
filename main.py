@@ -14,8 +14,8 @@ from generator import generate_listing
 
 app = FastAPI()
 
-templates = Jinja2Templates(directory="app/templates")
-app.mount("/static", StaticFiles(directory="app/static"), name="static")
+templates = Jinja2Templates(directory="templates")
+app.mount("/static", StaticFiles(directory="static"), name="static")
 # Load the pre-trained model (MobileNetV2)
 model = MobileNetV2(weights="imagenet")
 
