@@ -118,3 +118,12 @@ Social media significantly influences purchase decisions, yet identifying and ca
   - Contact: suhainafathimam@gmail.com
  
 ---
+### Future Enhancements
+  1. Expand API support for additional social media platforms.
+  2. Enhance AI for deeper trend prediction.
+  3. Integrate Amazon MWS API for automated listing uploads.
+  4. Add advanced analytics features for SMBs.
+  5. 
+---
+
+We look forward to the opportunity to present Social2Amazon and help SMBs thrive in the competitive e-commerce ecosystem.
