@@ -9,8 +9,8 @@ from tensorflow.keras.preprocessing import image
 from tensorflow.keras.applications import MobileNetV2
 from tensorflow.keras.applications.mobilenet_v2 import preprocess_input, decode_predictions
 from fastapi import Request
-from .utils import save_uploaded_file, process_text, process_image, process_video, combine_results
-from .generator import generate_listing
+from utils import save_uploaded_file, process_text, process_image, process_video, combine_results
+from generator import generate_listing
 
 app = FastAPI()
 
