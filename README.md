@@ -76,7 +76,7 @@ Social media significantly influences purchase decisions, yet identifying and ca
 - Hosted using Render for seamless integration.
 - Gunicorn and Uvicorn for backend server deployment.
 
-- Deployment link: [https://youtu.be/3Ssp3tG-Idc?si=ifdoKb41N4DU-rE-]
+- Visit: [https://youtu.be/3Ssp3tG-Idc?si=ifdoKb41N4DU-rE-]
 
 ---
 
