@@ -1,0 +1,4 @@
+Generate a Amazon product listing based on following details: 
+camera
+flower
+camera

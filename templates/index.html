@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Listing Generator</title>
+    <link rel="stylesheet" href="../static/css/styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Upload a File or Provide Text to Generate Product Listing</h1>
+        
+        <form id="upload-form" enctype="multipart/form-data">
+            <div>
+                <label for="file-upload">Upload a File (Image/Video):</label>
+                <input type="file" id="file-upload" name="file" accept="image/*,video/*">
+            </div>
+            
+            <div>
+                <label for="text-input">Or Enter Product Description Text:</label>
+                <textarea id="text-input" name="text" rows="4" cols="50"></textarea>
+            </div>
+
+            <button type="submit">Generate Listing</button>
+        </form>
+
+        <div id="listing-result">
+            <h2>Generated Listing:</h2>
+            <pre id="listing"></pre>
+            <h2>Processed Media:</h2>
+            <img id="processed-image" src="" alt="Processed Image" style="display: none;">
+            <video id="processed-video" controls style="display: none;">
+                <source src="" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+    <script src="../static/script.js"></script>
+
+</body>
+</html>
