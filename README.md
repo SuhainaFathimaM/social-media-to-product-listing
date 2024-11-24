@@ -111,3 +111,10 @@ Social media significantly influences purchase decisions, yet identifying and ca
 - **Database**: SQLite (for prototype)
 
 ---
+
+## Team Members
+- **Suhaina Fathima M**:
+  - B.E in CSE in Government College Of Engineering, Salem
+  - Contact: suhainafathimam@gmail.com
+ 
+---
