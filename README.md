@@ -90,8 +90,8 @@ Social media significantly influences purchase decisions, yet identifying and ca
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/social2amazon.git
-   cd social2amazon
+   git clone https://github.com/your-repo/social-media-to-product-listing.git
+   cd social-media-to-product-listing
 
 2. Install dependencies:
    ```bash
